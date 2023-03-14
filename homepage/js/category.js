@@ -66,6 +66,6 @@ const loadReco = (id) =>{
     .then((res) => res.json())
     .then(data => displayMovie(data.results));
 }
-loadReco(reco);
+loadReco(reco,page);
 
 
