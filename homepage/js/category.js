@@ -61,8 +61,8 @@ loadType(data,page);
 console.log(data,page);
 const reco = localStorage.getItem('id');
 
-const loadReco = (id) =>{
-    fetch(`https://api.themoviedb.org/3/movie/${id}/recommendations?api_key=a9e207044af35b1fdbb56539947ae49a&language=en-US`)
+const loadReco = (id,page) =>{
+    fetch(`https://api.themoviedb.org/3/movie/${id}/recommendations?api_key=a9e207044af35b1fdbb56539947ae49a&language=en-US&page=${page}`)
     .then((res) => res.json())
     .then(data => displayMovie(data.results));
 }
