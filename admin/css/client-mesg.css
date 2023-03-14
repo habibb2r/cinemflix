@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.mesg{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#messages{
+    background-color: rgb(193, 207, 219);
+    padding: 30px 50px;
+}
+#messages h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.mesg h3{
+    font-size: 1.4em;
+}
+.mesg input{
+    padding: 10px;
+    border-radius: 5px;
+}
+.mesg input[type="submit"]{
+    background-color: green;
+    font-weight: 700;
+    color: antiquewhite;
+    border: none;
+}
+.c-mesg{
+    padding: 10px 0; 
+}

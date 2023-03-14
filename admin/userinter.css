@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+table{
+    margin: 50px;
+}
+
+tr{
+    border: 2px dashed red;
+    color: gold;
+    background-color: black;
+    
+}
+
+.th{
+    border: 2px dashed red;
+    padding: 10px 20px;
+}
+td{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: large;
+}

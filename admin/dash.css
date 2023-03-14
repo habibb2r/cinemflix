@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: black;
+    color: gold; 
+}
+
+.navbar .logo{
+    font-size: 1.5em;
+}
+
+.nav-el{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-decoration: none;
+}
+
+.nav-el a{
+    text-decoration: none;
+    color: gold;
+    font-size: 1.2em;
+}
+
+.bodyy{
+    display: flex;
+    justify-content:center;
+}
+
+.mesg{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.messages{
+    background-color: rgb(193, 207, 219);
+    padding: 1%;
+    width: 100%;
+}
+
+.messages h2, .feedback h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.mesg h3, .feedback h3{
+    font-size: 1.4em;
+}
+
+.mesg input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mesg input[type="submit"]{
+    background-color: green;
+    font-weight: 700;
+    color: antiquewhite;
+    border: none;
+}
+
+.c-mesg{
+    padding: 10px 0; 
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reviewlist{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.feedback{
+    background-color: rgba(233, 16, 16, 0.568);
+    padding: 30px 50px;
+    width: 100%;
+}
+
+.star{
+    color: yellow;
+}
+
+.user-info{
+    background-color: burlywood;
+    width: 100%;
+}
+
+.footer{
+    background-color: black;
+    height: 80px;
+    color: gold;
+    text-align: center;
+}

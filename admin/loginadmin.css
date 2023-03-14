@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: linear-gradient(
+        to bottom,
+        rgba(74, 0, 247, 0.763),
+        rgba(255, 0, 0, 0.701)
+      ),url('../img/back1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    
+    margin-bottom: 50px;
+}
+.adminlog{
+    background-color: rgba(23, 1, 23, 0.475); 
+    color: white ;
+    width:500px;
+    margin-top: 100px;
+    padding: 30px 40px;
+    border-radius: 20%;
+}
+.adminn{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+.adminn input[type="password"],input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+}
+.adminn input[type="submit"]{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    color: aliceblue;
+    font-weight: 700;
+    border: none;
+}
